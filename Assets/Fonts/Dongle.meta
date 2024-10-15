@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Fonts/Dongle.meta
 guid: e6933839746d1d74fb5780690fcb2fe8
 folderAsset: yes
 DefaultImporter:
+========
+guid: c20d96bc38022744a864b65979144a81
+NativeFormatImporter:
+>>>>>>>> 8b5d12f0489a895c9bfef500f4458136d2cb5b94:Assets/Animation/DogModel/Materials/Frenchie.mat.meta
   externalObjects: {}
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
