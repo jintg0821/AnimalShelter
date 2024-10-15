@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 97a08167c3d3d284da93fa9992355180
-timeCreated: 1471647644
+guid: 26be150a9d238214080f354ce06fcb7e
+timeCreated: 1470440270
 licenseType: Store
 ModelImporter:
   serializedVersion: 19
@@ -42,12 +42,11 @@ ModelImporter:
     100068: Bip003 TailNub
     100070: Bone005
     100072: Bone006
-    100074: Corgi
-    100076: //RootNode
-    100078: EarRightBase001
-    100080: EarRightBase002
-    100082: EarRightMiddle001
-    100084: EarRightMiddle002
+    100074: EarRightBase001
+    100076: EarRightBase002
+    100078: EarRightMiddle001
+    100080: EarRightMiddle002
+    100082: //RootNode
     400000: Bip002 Head
     400002: Bip002 L Calf
     400004: Bip002 L Clavicle
@@ -85,20 +84,17 @@ ModelImporter:
     400068: Bip003 TailNub
     400070: Bone005
     400072: Bone006
-    400074: //RootNode
-    400076: Corgi
-    400078: EarRightBase001
-    400080: EarRightBase002
-    400082: EarRightMiddle001
-    400084: EarRightMiddle002
-    4300000: Corgi
+    400074: EarRightBase001
+    400076: EarRightBase002
+    400078: EarRightMiddle001
+    400080: EarRightMiddle002
+    400082: //RootNode
     7400000: Take 001
     9500000: //RootNode
-    13700000: Corgi
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 0
+    materialName: 0
+    materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -110,7 +106,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: 0.5
+    animationRotationError: 0.2
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
