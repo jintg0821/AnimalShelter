@@ -5,7 +5,6 @@ using UnityEngine;
 public class DogAnimatorController : MonoBehaviour
 {
     public Animator DogAnimator;
-
     public GameObject target;
     public GameObject dog;
 
