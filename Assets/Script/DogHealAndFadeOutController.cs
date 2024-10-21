@@ -15,16 +15,16 @@ public class DogHealAndFadeOutController : MonoBehaviour
         dogRenderer = dogObject.GetComponentInChildren<Renderer>();
 
         // 버튼 클릭 이벤트에 메서드 연결
-        healButton.onClick.AddListener(HealAndFadeOut);
+        //healButton.onClick.AddListener(HealAndFadeOut);
     }
 
     // "치료하기" 버튼이 눌렸을 때 호출되는 메서드
-    private void HealAndFadeOut()
+    public void HealAndFadeOut()
     {
         StartCoroutine(FadeOutCoroutine());
     }
 
-    private IEnumerator FadeOutCoroutine()
+    public  IEnumerator FadeOutCoroutine()
     {
         float currentTime = 0f;
         Color initialColor = dogRenderer.material.color;
