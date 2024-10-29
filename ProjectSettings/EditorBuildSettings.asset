@@ -6,16 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Animation/Low Poly Hospital 2.0/Scenes/Start.unity
     guid: 526150e27c8e6304080668ee626633fc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Explain.unity
     guid: 4f18533848708b944aa32c187448dfe6
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Animation/Low Poly Hospital 2.0/Scenes/Explain.unity
+    guid: 5f992bc6f3071254a988a61055d7fd0d
+  - enabled: 1
+    path: Assets/Animation/Low Poly Hospital 2.0/Scenes/Main.unity
     guid: c4588807add909142b6aba5539836a43
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Animation/Low Poly Hospital 2.0/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 45ca9b2c1d0fb3e4886d99ba700020ef, type: 2}

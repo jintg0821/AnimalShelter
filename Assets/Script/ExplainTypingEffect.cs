@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ExplainTypingEffect : MonoBehaviour
@@ -16,12 +17,23 @@ public class ExplainTypingEffect : MonoBehaviour
 
     IEnumerator typing()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.1f);
         for (int i = 0; i <= n_text.Length; i++)
         {
             text.text = n_text.Substring(0, i);
 
-            yield return new WaitForSeconds(0.15f);
+            yield return new WaitForSeconds(0.09f);
         }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+
+            SceneManager.LoadScene("Main");
+
+        }
+ 
     }
 }

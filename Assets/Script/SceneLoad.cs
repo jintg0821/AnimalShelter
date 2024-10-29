@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoad : MonoBehaviour
 {
-    public void SceneChange()
+    private void Update()
     {
-        SceneManager.LoadScene("Main");
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            SceneManager.LoadScene("Explain");
+        }
     }
 }
